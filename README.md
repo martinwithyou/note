@@ -1,5 +1,3 @@
-# C-Practise
-martin with C++ at first time
 # 第十章 中国特色社会主义的开创与接续发展
 
 ## 第一节 历史性的伟大转折和改革开放的起步
