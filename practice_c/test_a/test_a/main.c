@@ -8,20 +8,35 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
+//#include <conio.h>
 int main() {
     // insert code here...
     int i,j;
     int x=10;
     int y=8;
-    for(i=0;i<x;i++){
-        printf("\n");
+    char c;
+    while(1){
+        system("cls");
+        for(i=0;i<x;i++){
+            for(j=0;j<y;j++){
+                printf(" ");
+            }
+            printf("|\n");
+        }
+        for(j=0;j<y;j++){
+            printf(" ");
+        }
+        printf("@\n");
     }
-    for(j=0;j<y;j++){
-        printf(" ");
-    }
-    printf("@\n");
-    system("pause");
+    //c = getch();
+    if(c=='w')
+        x--;
+    if(c=='s')
+        x++;
+    if(c=='a')
+        y--;
+    if(c=='d')
+        y++;
+    
     return 0;
 }
